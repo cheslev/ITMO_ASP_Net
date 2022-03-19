@@ -8,8 +8,7 @@ namespace ASP_Net_MVC_Lab5_MvcCreditApp1.Models
 {
     public class CreditsDbInitializer : DropCreateDatabaseIfModelChanges<CreditContext>
     {
-        
-            protected override void Seed(CreditContext context)
+        protected override void Seed(CreditContext context)
         {
             context.Credits.Add(new Credit
             {
@@ -19,7 +18,7 @@ namespace ASP_Net_MVC_Lab5_MvcCreditApp1.Models
                 Head = "Образовательный кредит", Period = 7, Sum = 300000, Procent = 10 });
             context.Credits.Add(new Credit
             {
-                Head = "Потребительский кредит", Period = 5, Sum = 500000, Procent = 19 });
+                Head = "Потребительский  кредит", Period = 5, Sum = 500000, Procent = 19 });
             base.Seed(context);
         }
     }

@@ -1,0 +1,24 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using ASPNet_Lab1_WebAppCoreProduct.Models;
+
+
+namespace ASPNet_Lab1_WebAppCoreProduct.Pages
+{
+    public class IndexModel : PageModel
+    {
+       
+        public void OnGet()
+        {
+           
+        }
+
+
+      
+
+    }
+}
